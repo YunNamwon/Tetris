@@ -182,6 +182,7 @@ document.addEventListener("keydown", e=> {
 
 restartButton.addEventListener("click", () => {
     playground.innerHTML = "";
+    document.getElementById("score").innerHTML ="0";
     gameText.style.display = "none";
     init()
 })
