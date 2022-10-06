@@ -182,7 +182,7 @@ document.addEventListener("keydown", e=> {
 
 restartButton.addEventListener("click", () => {
     playground.innerHTML = "";
-    document.getElementById("score").innerHTML ="0";
+    document.getElementById("score").innerHTML ="0"; //다시 시도 점수 초기화
     gameText.style.display = "none";
     init()
 })
