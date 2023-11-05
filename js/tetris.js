@@ -5,7 +5,7 @@ const playground = document.querySelector(".playground > ul");
 const gameText = document.querySelector(".game-text");
 const scoreDisplay = document.querySelector(".score");
 const restartButton = document.querySelector(".game-text > button");
-//
+
 //Setting //
 const GAME_ROWS = 20;
 const GAME_COLS = 10;
@@ -144,7 +144,7 @@ function changeDirection(){
     renderBlocks()
 }
 
-// 10의 값만큼 spacebar 클릭 시 빠르게 떨어짐 
+// 10의 값만큼 spacebar 클릭 시 빠르게 떨어짐
 function dropBlock(){
     clearInterval(downInterval);
     downInterval = setInterval(()=>{
