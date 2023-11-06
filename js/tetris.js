@@ -144,7 +144,7 @@ function changeDirection(){
     renderBlocks()
 }
 
-// 10의 값만큼 spacebar 클릭 시 빠르게 떨어짐
+// 10의 값만큼 spacebar 클릭 시 빠르게 떨어짐d
 function dropBlock(){
     clearInterval(downInterval);
     downInterval = setInterval(()=>{
